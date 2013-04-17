@@ -1,0 +1,8 @@
+<h3>Home</h3>
+<p> This code is not appropriate for deployment in a real application. 
+You likely will not want to display a list of users on the home page. 
+However, it is convenient for our example.</p>
+
+<% @users.each do |user| %>
+  <p>User: <%=link_to user.name, user %></p>
+<% end %>

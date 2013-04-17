@@ -1,0 +1,2 @@
+{"ts":1366213166456,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class ApplicationController < ActionController::Base\n  protect_from_forgery\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":80}]],"length":80}
+{"contributors":[],"silentsave":false,"ts":1366213163839,"patch":[[{"diffs":[[0,"forgery\n"],[1,"  rescue_from CanCan::AccessDenied do |exception|\n    redirect_to root_path, :alert => exception.message\n  end\n  \n"],[0,"end\n"]],"start1":68,"start2":68,"length1":12,"length2":126}]],"length":194,"saved":false}

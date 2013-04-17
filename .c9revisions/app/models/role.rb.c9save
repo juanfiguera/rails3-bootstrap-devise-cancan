@@ -1,0 +1,1 @@
+{"ts":1366213339852,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"class Role < ActiveRecord::Base\n  has_and_belongs_to_many :users, :join_table => :users_roles\n  belongs_to :resource, :polymorphic => true\n  \n  scopify\nend\n"]],"start1":0,"start2":0,"length1":0,"length2":156}]],"length":156}

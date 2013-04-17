@@ -1,0 +1,2 @@
+{"ts":1366210627468,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1366210664288,"patch":[[{"diffs":[[1,"<% flash.each do |name, msg| %>\r\n  <% if msg.is_a?(String) %>\r\n    <div class=\"alert alert-<%= name == :notice ? \"success\" : \"error\" %>\">\r\n      <a class=\"close\" data-dismiss=\"alert\">&#215;</a>\r\n      <%= content_tag :div, msg, :id => \"flash_#{name}\" %>\r\n    </div>\r\n  <% end %>\r\n<% end %>"]],"start1":0,"start2":0,"length1":0,"length2":289}]],"length":289,"saved":false}
