@@ -10,7 +10,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', :group => [:development, :test]
 
 # Testing
 gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
@@ -39,3 +39,7 @@ gem "figaro", ">= 0.5.0"
 gem "better_errors", ">= 0.2.0", :group => :development
 
 gem "binding_of_caller", ">= 0.6.8", :group => :development
+
+group :production do
+  gem 'pg', '0.14.1'
+end
